@@ -2,6 +2,7 @@ package com.example.xu.mygit_fan;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+
+        Log.i("xff", "onCreate: hello world");
     }
 }
